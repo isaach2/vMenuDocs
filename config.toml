@@ -1,0 +1,52 @@
+baseurl = "https://docs.vespura.com/vmenu"
+languageCode = "en-us"
+title = "vMenu Documentation"
+theme = "hugo-theme-learn"
+metadataformat = "yaml"
+enableGitInfo = true
+
+[params]
+  description = "vMenu Documentation"
+  author = "Vespura"
+  showVisitedLinks = true
+  themeVariant = "blue"
+  editURL = "https://github.com/tomgrobbe/vMenuDocs"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "vMenu Documentation"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]] 
+name = "<i style='color: #2196f3;' class='fab fa-github'></i>GitHub Repository"
+url = "https://github.com/TomGrobbe/vMenu"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i style='color: #ffa76d;' class='fab fa-discourse'></i>Forum topic"
+url = "https://forum.fivem.net/t/vMenu/88868?u=vespura"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i style='color: #607d8b;' class='fas fa-download'></i>Download vMenu"
+url = "https://github.com/TomGrobbe/vMenu/releases/latest/"
+weight = 30
+
+[[Languages.en.menu.shortcuts]]
+name = "<i style='color: #5ed05a;' class='fas fa-server'></i>ZAP Hosting's 1-click installer"
+url = "https://zap-hosting.com/vespura"
+weight = 40
+
+[[Languages.en.menu.shortcuts]]
+name = "<i style='color: #f96854;' class='fab fa-patreon'></i>Patreon <i style='color: #ef5350;' class='fas fa-heart'></i>"
+url = "https://www.patreon.com/vespura"
+weight = 50
+
+[[Languages.en.menu.shortcuts]]
+name = "<i style='color: #2196f3;' class='fas fa-globe'></i>My main website"
+url = "https://vespura.com/"
+weight = 60
