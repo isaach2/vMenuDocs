@@ -10,7 +10,7 @@ enableGitInfo = true
   author = "Vespura"
   showVisitedLinks = true
   themeVariant = "blue"
-  editURL = "https://github.com/tomgrobbe/vMenuDocs"
+  editURL = "https://github.com/TomGrobbe/vMenuDocs/tree/master/content/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
