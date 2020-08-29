@@ -22,7 +22,6 @@ setr vmenu_option_name value
 |vmenu_enable_dynamic_weather|`true` / `false`|Enbales/disables dynamic weather changes by default. It can still be toggled on/off in-game using the menu.|
 |vmenu_dynamic_weather_timer|Any [integer][integer] (whole number)|Sets the delay between dynamic weather changes in whole minutes.|
 |vmenu_default_weather|A valid weather type|Set the default weather type that will be selected when the resource is loaded.|
-|vmenu_allow_random_blackout|`true` / `false`|Enables/disables a random 1/5 chance that a 1-minute period of 'blackout' mode will be enabled if the current weather type is thunder.|
 |vmenu_enable_time_sync|`true` / `false`|Enables/disables time sync completely.|
 |vmenu_freeze_time|`true` / `false`|Enables/disables the default freeze time state.|
 |vmenu_default_time_hour|Any [integer][integer] (whole number)|The default in-game hour to set the time to whenever the resource is started (24 hours clock).|
@@ -40,16 +39,15 @@ setr vmenu_option_name value
 |vmenu_disable_spawning_as_default_character|`true` / `false`|Setting this to `true` will globally disable the 'Spawn As Default Character' feature for everyone on the server.|
 |vmenu_auto_ban_cheaters_ban_message|Any string|This allows you to set a custom ban reason for whenever a player is automatically banned for cheating. (Added in vMenu v2.2.1).|
 |vmenu_disable_daily_update_checks|`true` / `false`|Allows you to disable the daily update checks.|
-|vmenu_smooth_time_transitions|`true` / `false`|Enables smooth time transitions when changing the time.|
 |vmenu_enable_animals_spawn_menu|`true` / `false`|Enables the animals menu in the player appearance » ped spawner menu.|
 |vmenu_pvp_mode|`0`, `1` or `2`|0 = Do nothing. 1 = Enable PVP for everyone. 2 = Disable PVP for everyone.|
 |vmenu_disable_server_info_convars|`true` / `false`|Disables the server info convars.|
 |vmenu_player_names_distance|Any float value|Default `500.0`, sets the range on the player overhead names.|
 |vmenu_disable_entity_outlines_tool|`true` / `false`|Disables the entity related dev-tools in the Misc Settings » Dev Tools menu.|
-|vmenu_bans_database_filepath|`string`|Default: `""`, allows you to enter a custom filepath for the `vmenu_bans.db` file. MUST END WITH A TRAILING `/` IF THIS STRING IS NOT EMPTY!|
-|vmenu_bans_use_database|`true` / `false`|When `true`, the `vmenu_bans.db` file will be used to store banned players, if `false` then the `bans.json` file will be used.|
-|vmenu_bans_use_database|`true` / `false`|When `true`, the `vmenu_bans.db` file will be used to store banned players, if `false` then the `bans.json` file will be used.|
-|vmenu_default_ban_message_information|`string`|Default: `"Please contact the staff team by going (support url) if you want to appeal this ban"`, This message gets added at the end of all ban messages, use this to show users where they can contact the server staff team in case they want to appeal it or if they have any questions.|
+|vmenu_default_ban_message_information|`string`|Default: `"Please contact the staff team by going to (support url) if you want to appeal this ban"`, This message gets added at the end of all ban messages, use this to show users where they can contact the server staff team in case they want to appeal it or if they have any questions.|
+|vmenu_blackout_enabled|`true` / `false`|This allows you to set the (default) state for blackout mode.|
+|vmenu_sync_to_machine_time|`true` / `false`|Allows you to sync the time to the server's real system time (the custom in-game hour duration setting will be ignored if this is enabled and you won't be able to change the time manually).|
+|vmenu_weather_change_duration |`integer`|Allows you to configure how long in seconds weather changes take, value should be between 0 and 45 for best results.|
 
 
 ## Easy installation using ZAP Hosting
@@ -57,7 +55,7 @@ If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server
 
 **Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
 
-<a href='https://zap-hosting.com/vespura2'><img src="https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png" alt="ZAP-Hosting Gameserver and Webhosting"></a>
+[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
 
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!

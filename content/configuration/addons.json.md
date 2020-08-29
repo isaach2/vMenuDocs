@@ -4,9 +4,11 @@ weight: 32
 ---
 
 ## About
+
 The addons.json file (located in `resources\vMenu\config\`) is used to add addon vehicles / peds / weapons in to vMenu's addon submenus.
 
 ## Removing sections
+
 In this file you can list all your addon models. If you want to remove a all addon models from one of the categories below, simply set that category to `[]`, for example, to remove all models set each category to the following:
 
 ```json
@@ -18,8 +20,10 @@ In this file you can list all your addon models. If you want to remove a all add
 ```
 
 ## Adding models
+
 If you want to add new models, imply add a comma after the last row in a specific category, add a new line below and just copy the format from the line above, replacing the name with your new name.
 For example, here I've added 4 extra cars, 1 extra ped and 5 extra weapons:
+
 ```json
 {
   "vehicles": [
@@ -43,11 +47,18 @@ For example, here I've added 4 extra cars, 1 extra ped and 5 extra weapons:
     "addonweaponnameextra3",
     "addonweaponnameextra4",
     "addonweaponnameextra5"
+  ],
+  "weapon_components": [
+    "weapon_component_name_1",
+    "weapon_component_name_2"
   ]
 }
 ```
 
+*Note: `weapon_components` are untested and un-documented for now*
+
 ## Renaming vehicles
+
 Vehicles can not be renamed through vMenu. This would be really easy to add, but because this is not the proper way to name vehicles, I refuse to add an option for it because you should learn to properly add vehicle names. To **properly** set a vehicle's name, follow the easy steps below: 
 
 1. Go to the `vehicles.meta` file for your vehicle, set the `<gameName>MODELNAME</gameName>` entry to the **vehicle model** name. **Do <u>NOT</u> enter a custom name in there**. For example, if my addonvehicle is called `mgt` in-game (shows up as `mgt` in the addons vehicle spawner/you spawn it by typing `mgt` in the spawn by name function) then set the `gameName` to `mgt` in the `vehicles.meta` file.
@@ -84,6 +95,7 @@ Vehicles can not be renamed through vMenu. This would be really easy to add, but
     ```
 
 ## Default addons.json
+
 ```json
 {
   "vehicles": [

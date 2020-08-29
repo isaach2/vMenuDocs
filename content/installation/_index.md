@@ -12,6 +12,10 @@ If you're updating vMenu, instead of installing it from scratch, you need to mak
 **IMPORTANT**: Before installing vMenu, make sure your **[FXServer artifacts](https://runtime.fivem.net/artifacts/fivem/)** are up to date. Yes update the server. Just do it. Don't be lazy and come crying if it doesn't work because you didn't update the server.
 {{% /notice %}}
 
+{{% notice warning%}}
+**IMPORTANT**: If you're updating vMenu from any version below v3.3.0, and you want to keep your saved bans, please read the changelog for the update [here](https://github.com/TomGrobbe/vMenu/releases/tag/v3.3.0-pre).
+{{% /notice %}}
+
 ## Installation steps
 1. Go to the RELEASES page (on the GitHub repo), and download "vMenu-\<version\>.zip", or use the "Download vMenu" button on the left side of this page to automatically download the latest version.
 2. Once you've got your zip file, extract the files and copy everything into `/resources/vMenu/` so that you end up with the `fxmanifest.lua` (previously `__resource.lua`) file right here: `/resources/vMenu/fxmanifest.lua`.
@@ -47,7 +51,7 @@ If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server
 
 **Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
 
-<a href='https://zap-hosting.com/vespura2'><img src="https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png" alt="ZAP-Hosting Gameserver and Webhosting"></a>
+[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
 
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!

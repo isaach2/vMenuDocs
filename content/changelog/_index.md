@@ -5,6 +5,64 @@ weight: 70
 
 ----------------
 
+## vMenu v3.3.0 (Pre-Release) (August 29 2020)
+
+### Note this is an untested pre-release version, use at your own risk.
+
+### Note before updating
+
+SQLite support has been dropped. This caused too many crashes and was completely incompatible with recent (Linux) FXServer artifacts.
+The new ban system uses the default server side storage built in to FXServer. To migrate (copy) your old `vmenu_bans.db` or `bans.json` file, follow the following steps. If you don't have a `vmenu_bans.db` file, and only a `bans.json` file skip to step 2.
+
+- **Step 1.** Upload your `vmenu_bans.db` file to [here](https://vespura.com/vmenu/migrate/), and place the `bans.json` file you get here: `/resources/vMenu/bans.json`
+- **Step 2.** [Update to the latest version of vMenu](https://docs.vespura.com/vmenu/installation), start the server and type `vmenuserver migrate` in the server console. This may take some time depending on the amount of bans you have stored. **ONLY RUN THIS COMMAND ONCE, OTHERWISE YOUR BANS WILL BE DUPLICATED**
+- **Step 3** Make sure the bans are imported by joining the server and checking the banned players menu. After that, delete the `bans.json` and `vmenu_bans.db` files, as you'll no longer need them.
+
+
+### Changes (summary)
+
+- New bans system. The JSON and SQLite implementations have been removed.
+- Fix death notifications & restore appearance on re-spawn bugs.
+- Some WIP NUI features, not yet available.
+- Some deploy config changes for AppVeyor.
+- Missing 1868 (and some -not all- 2060) DLC vehicles added.
+- Add support for game builds 1868 and 2060 by adding the new vehicle class and vehicle wheel type options.
+- Fix vehicle wheel type list bug.
+- Rework weather and time options, **note that the convars (config options) for these features have been changed!**
+- Experimental feature: add support for addon weapon components, untested. This is a new section (`weapon_components`) in the `addons.json` file.
+- Fixed a [bug](https://github.com/TomGrobbe/vMenu/commit/0c642cc0e691520fe8829f1f9bce033428c739b0) which caused some vehicle modifications to apply incorrectly when spawning a saved vehicle.
+- Updated CFX dependencies.
+- Update MenuAPI dependency.
+- Merge a [bugfix PR](https://github.com/TomGrobbe/vMenu/pull/227) which adds additional checks before locking personal vehicles using the remote options.
+- Merge a [bugfix PR](https://github.com/TomGrobbe/vMenu/pull/228) which addresses an overhead player names issue.
+
+### convar changes (permissions.cfg):
+
+**Removed options:**
+
+- `vmenu_allow_random_blackout` This feature has been removed.
+- `vmenu_smooth_time_transitions` This feature has been removed.
+- `vmenu_bans_database_filepath` All SQLite/bans.json options have been removed.
+- `vmenu_bans_use_database` All SQLite/bans.json options have been removed.
+
+**Added options:**
+
+- `vmenu_blackout_enabled` This allows you to set the (default) state for blackout mode.
+- `vmenu_sync_to_machine_time` Allows you to sync the time to the server's real system time (the custom in-game hour duration setting will be ignored if this is enabled and you won't be able to change the time manually).
+- `vmenu_weather_change_duration` Allows you to configure how long weather changes take.
+
+**Changed/renamed options:**
+
+- `vmenu_default_time_hour` has been renamed to `vmenu_current_hour`
+- `vmenu_default_time_min` has been renamed to `vmenu_current_minute`
+- `vmenu_default_weather` has been renamed to `vmenu_current_weather`
+
+### Addons.json changes
+
+A new section has been added for `weapon_components` in which you can add the names of addon (streamed) weapon components, note that this is untested. They will automatically be matched for compatible weapons and appear as components which you can toggle in the weapon options menu.
+
+----------------
+
 ## v3.2.0 and 3.2.1 (April 26 2020 and May 21 2020)
 
 (Combined these changelogs because they are both very small updates, individual changes from [v3.1.3 to v3.2.0 can be found here](https://github.com/TomGrobbe/vMenu/compare/v3.1.3...v3.2.0) and [v3.2.0 to v3.2.1 here](https://github.com/TomGrobbe/vMenu/compare/v3.2.0...v3.2.1))

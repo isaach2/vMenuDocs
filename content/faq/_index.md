@@ -6,6 +6,10 @@ weight: 60
 
 ## Read this before asking for support.
 
+{{% notice warning%}}
+**IMPORTANT**: If you're having issues with vMenu crashing on your (Linux) server, it's recommended to update to vMenu v3.3.0-pre or above. More info [here](https://github.com/TomGrobbe/vMenu/releases/tag/v3.3.0-pre).
+{{% /notice %}}
+
 ----
 
 #### **Q:** How do I change the 'M' (menu toggle) key to 'some other key'?

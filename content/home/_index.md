@@ -7,6 +7,9 @@ weight: 1
 _vMenu is a server-sided trainer/menu for FiveM servers, allowing server owners to configure it almost completely using simple permissions._
 
 
+{{% notice warning%}}
+**IMPORTANT**: If you're having issues with vMenu crashing on your (Linux) server, it's recommended to update to vMenu v3.3.0-pre or above. More info [here](https://github.com/TomGrobbe/vMenu/releases/tag/v3.3.0-pre).
+{{% /notice %}}
 
 
 ## Getting Started
@@ -23,7 +26,7 @@ If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server
 
 **Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
 
-<a href='https://zap-hosting.com/vespura2'><img src="https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png" alt="ZAP-Hosting Gameserver and Webhosting"></a>
+[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
 
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!
