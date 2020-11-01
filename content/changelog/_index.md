@@ -5,11 +5,11 @@ weight: 70
 
 ----------------
 
-## vMenu v3.3.0 (Pre-Release) (August 29 2020)
-
-### Note this is an untested pre-release version, use at your own risk.
+## vMenu v3.3.1 (November 1 2020)
 
 ### Note before updating
+
+_Ignore this part if you've already upgraded to v3.3.0-pre, you can skip to the **Changes (summary)** section_
 
 SQLite support has been dropped. This caused too many crashes and was completely incompatible with recent (Linux) FXServer artifacts.
 The new ban system uses the default server side storage built in to FXServer. To migrate (copy) your old `vmenu_bans.db` or `bans.json` file, follow the following steps. If you don't have a `vmenu_bans.db` file, and only a `bans.json` file skip to step 2.
@@ -20,6 +20,26 @@ The new ban system uses the default server side storage built in to FXServer. To
 
 
 ### Changes (summary)
+
+#### v3.3.1 changes
+
+- Added drawing of Network Owner of entities to developer tools. [PR by Explooosion-code](https://github.com/TomGrobbe/vMenu/pull/231).
+- Fixed and added missing street wheel options in the Vehicle Options mod menu.
+- Slightly alter the vehicle options menu layout to have the most commonly used features at the top.
+- Enable follow-cam mode in NoClip by default and fixed issues regarding this follow-cam mode.
+- Change how noclip handles the speed modifier, this now calculates the speed properly, regardless of FPS.
+- Cleaned up old/unused code.
+- Add 15 missing mpsummer 2020 DLC vehicles. (Only available if the server streams them or if the server enforces the new game build)
+- Updated MenuAPI
+- The vehicle spawner menu now shows some experimental vehicle stats when selecting a vehicle.
+- MenuAPI small performance improvement. [PR by blattersturm](https://github.com/TomGrobbe/MenuAPI/pull/34)
+- Some more fixes for the (not yet released) import/export ability for vMenu.
+- Improvements for working with OneSync/Infinity. [PR by blattersturm](https://github.com/TomGrobbe/vMenu/pull/233)
+- Added default radio station when spawning a vehicle. [PR by Explooosion-code](https://github.com/TomGrobbe/vMenu/pull/232)
+
+#### v3.3.0-pre changes (v3.3.0-pre was a Pre-Release version, published on August 29 2020)
+
+_If you haven't updated to v3.3.0-pre yet, read this part as well before updating to v3.3.1_
 
 - New bans system. The JSON and SQLite implementations have been removed.
 - Fix death notifications & restore appearance on re-spawn bugs.
@@ -60,6 +80,7 @@ The new ban system uses the default server side storage built in to FXServer. To
 ### Addons.json changes
 
 A new section has been added for `weapon_components` in which you can add the names of addon (streamed) weapon components, note that this is untested. They will automatically be matched for compatible weapons and appear as components which you can toggle in the weapon options menu.
+
 
 ----------------
 

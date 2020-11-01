@@ -6,7 +6,7 @@ weight: 20
 
 ## Installing vs Updating
 
-If you're updating vMenu, instead of installing it from scratch, you need to make sure that you REPLACE **ALL** files, **EXCEPT** your `permissions.cfg`, `/config/addons.json` and `bans.json` files!
+If you're updating vMenu, instead of installing it from scratch, you need to make sure that you REPLACE **ALL** files, **EXCEPT** your `permissions.cfg` and all files in the `vMenu/config/` folder!
 
 {{% notice warning%}}
 **IMPORTANT**: Before installing vMenu, make sure your **[FXServer artifacts](https://runtime.fivem.net/artifacts/fivem/)** are up to date. Yes update the server. Just do it. Don't be lazy and come crying if it doesn't work because you didn't update the server.
