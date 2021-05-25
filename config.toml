@@ -21,7 +21,7 @@ title = "vMenu Documentation"
 weight = 1
 languageName = "English"
 
-[[Languages.en.menu.shortcuts]] 
+[[Languages.en.menu.shortcuts]]
 name = "<i style='color: #2196f3;' class='fab fa-github'></i>GitHub Repository"
 url = "https://github.com/TomGrobbe/vMenu"
 weight = 10
@@ -37,16 +37,11 @@ url = "https://github.com/TomGrobbe/vMenu/releases/latest/"
 weight = 30
 
 [[Languages.en.menu.shortcuts]]
-name = "<i style='color: #5ed05a;' class='fas fa-server'></i>ZAP Hosting's 1-click installer"
-url = "https://zap-hosting.com/vespura"
-weight = 40
-
-[[Languages.en.menu.shortcuts]]
 name = "<i style='color: #f96854;' class='fab fa-patreon'></i>Patreon <i style='color: #ef5350;' class='fas fa-heart'></i>"
 url = "https://www.patreon.com/vespura"
-weight = 50
+weight = 40
 
 [[Languages.en.menu.shortcuts]]
 name = "<i style='color: #2196f3;' class='fas fa-globe'></i>My main website"
 url = "https://vespura.com/"
-weight = 60
+weight = 50

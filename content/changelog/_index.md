@@ -5,6 +5,46 @@ weight: 70
 
 ----------------
 
+## vMenu v3.4.0 (May 25 2021)
+
+### Pull requests
+- Merged PR #237 (Increased max distance to lock car doors (personal vehicle menu))
+- Merged PR #238 (OneSync Infinity fixes)
+- Merged PR #239 (Fixed swapped death notifications/join and leave notifications permissions.)
+- Merged PR #245 (Added entity spawner to misc settings > dev tools) and improved the code slightly.
+- Merged PR #244 (Fixed invisibility) and improved the code slightly.
+- Merged PR #249 (Added missing casino/cayo perioco DLC vehicles and weapons).
+- Manually fixed the issue mentioned in PR #235
+
+### (Performance) improvements
+- Only start tick functions for specific menu's if the user is allowed to open the menu.
+- No longer run any tick functions if the user is not allowed to use vMenu at all.
+- Remove unused code from tick functions, and merge them into other functions that only get called once.
+- Improved setting weather types from client menu.
+- Various small code improvements and cleanup.
+
+### New features
+- Added a manual snow toggle in the weather options that allows you to enable snow effects for any weather type, not just XMAS. You still get the best results if you use XMAS weather though. (use the `vmenu_enable_snow` convar to set the default value)
+- Ability to disable vMenu's player stats control completely (use the `vmenu_disable_player_stats_setup` convar).
+- Added warnings to certain features that are incompatible with OneSync Infinity.
+
+### Fixed
+- Current weather type not being selected correctly in some cases.
+
+### Permission changes
+- Added `vMenu.WeaponOptions.CeramicPistol`
+- Added `vMenu.WeaponOptions.NavyRevolver`
+- Added `vMenu.WeaponOptions.PericoPistol`
+- Added `vMenu.WeaponOptions.MilitaryRifle`
+- Added `vMenu.WeaponOptions.CombatShotgun`
+- Added `vMenu.MiscSettings.EntitySpawner` (moderators only by default)
+
+### Config changes
+- Added `vmenu_handle_invisibility` to prevent vMenu from setting the player's invisibility every frame. Useful if you have other resources that want to override vMenu's player invisibility option.
+- Added `vmenu_disable_player_stats_setup` to prevent vMenu from setting any player stats like stamina, shooting, driving ability, etc.
+- Added `vmenu_enable_snow` to manually enable snow on the ground without having the 'xmas' weather type selected.
+
+
 ## vMenu v3.3.1 (November 1 2020)
 
 ### Note before updating

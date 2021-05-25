@@ -257,7 +257,7 @@ weight: 41
 |`vMenu.MiscSettings.DriftMode`|Allows you to enable the drift mode keybind option in the misc settings menu.|Allowed|
 |`vMenu.MiscSettings.TeleportSaveLocation`|Allows you to save a new location to the "Teleport Locations" menu, which will also get saved to the locations.json file. (not allowed by default if you use the new permissions.cfg in this update, otherwise EVERYONE may be able to use this so be careful!)|**Not Allowed**|
 |`vMenu.MiscSettings.TeleportToCoord`|Allows you to teleport to any coordinate you enter.|Allowed|
-
+|`vMenu.MiscSettings.EntitySpawner`|Allows you to use the entity spawner option inside Misc Settings > Developer Tools.|**Not Allowed**|
 
 
 
