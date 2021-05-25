@@ -19,14 +19,5 @@ If this is your first time installing vMenu (or you're completely new at install
 
 If you already know the basics of installing resources (make sure you name the resource folder `vMenu` otherwise this resource will break) continue reading over at the Permissions or Configuration pages.
 
-
-
-## Easy installation using ZAP Hosting
-If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server using the link below, and install vMenu through their 1-click installer! Don't forget to use the code `Vespura-a-3715` at checkout for a 10% discount!
-
-**Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
-
-[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
-
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!

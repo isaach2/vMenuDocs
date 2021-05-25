@@ -49,17 +49,8 @@ setr vmenu_option_name value
 |vmenu_sync_to_machine_time|`true` / `false`|Allows you to sync the time to the server's real system time (the custom in-game hour duration setting will be ignored if this is enabled and you won't be able to change the time manually).|
 |vmenu_weather_change_duration |`integer`|Allows you to configure how long in seconds weather changes take, value should be between 0 and 45 for best results.|
 
-
-## Easy installation using ZAP Hosting
-If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server using the link below, and install vMenu through their 1-click installer! Don't forget to use the code `Vespura-a-3715` at checkout for a 10% discount!
-
-**Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
-
-[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
-
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!
-
 
 
 [control]: https://docs.fivem.net/game-references/controls/#controls

@@ -45,13 +45,5 @@ vMenu is no longer supported. Check the archived support channels in my [Discord
 ## F.A.Q.
 Checkout the [F.A.Q. page](/vmenu/faq/)..
 
-
-## Easy installation using ZAP Hosting
-If you don't want to install vMenu yourself, then get a ZAP Hosting FiveM server using the link below, and install vMenu through their 1-click installer! Don't forget to use the code `Vespura-a-3715` at checkout for a 10% discount!
-
-**Click [here to get a FiveM server from ZAP Hosting](https://zap-hosting.com/vespura2) and use the one-click installer from the control panel.**
-
-[![banner](https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura2)
-
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!
