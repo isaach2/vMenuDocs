@@ -50,8 +50,8 @@ Alternatively you may have altered the permissions.cfg file and made a mistake g
 
 #### **Q**: vMenu v1.4.0 no longer works or the permissions and/or options no longer work since v1.4.0!
 > **A**: Most likely it's one of the following:
-> 
-> 1. You might be using the old convars, check the configuration page for a list of the most recent convar names. 
+>
+> 1. You might be using the old convars, check the configuration page for a list of the most recent convar names.
 > 2. Make sure to use `setr` instead of `set` to configure the convars.
 > 3. If that doesn't work, update your server. You are using an outdated version of FXServer. You need to be using at least version 801 or above. This is only the case for vMenu v1.4.0 and up.
 
@@ -68,13 +68,13 @@ Alternatively you may have altered the permissions.cfg file and made a mistake g
 ---
 
 #### **Q**: Help, MenuAPI / vMenu v2.1.0 doesn't work with ultra wide monitors.
-> **A**: Your menu probably looks something like this: 
-> 
+> **A**: Your menu probably looks something like this:
+>
 > ![](https://www.vespura.com/hi/i/2018-12-27_19-16_03e47_443.png)
 >
 > To fix this, either:
 > - Set your aspect ratio to 16:9 or below
-> - Don't use windowed mode (use borderless or fullscreen) 
+> - Don't use windowed mode (use borderless or fullscreen)
 >
 > Or:
 > - Left-align the menu (misc settings > disable 'right align menu'). This can't be fixed, it's a GTA issue.
@@ -148,3 +148,8 @@ Alternatively you may have altered the permissions.cfg file and made a mistake g
 ## Appreciate my work?
 Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.patreon.com/vespura)!
 
+
+
+## 1-click installation with Zap Hosting
+[![](https://zap-hosting.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura)
+Zap Hosting provides a simple 1 click installation method for vMenu! Click [this link](https://zap-hosting.com/vespura) to get a Zap server and use code `Vespura-a-3715` at checkout for 20% off your purchase!

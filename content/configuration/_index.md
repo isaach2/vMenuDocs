@@ -58,3 +58,7 @@ Consider supporting me on [<i class='fab fa-patreon'></i> Patreon](https://www.p
 
 [control]: https://docs.fivem.net/game-references/controls/#controls
 [integer]: https://en.wikipedia.org/wiki/Integer
+
+## 1-click installation with Zap Hosting
+[![](https://zap-hosting.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura)
+Zap Hosting provides a simple 1 click installation method for vMenu! Click [this link](https://zap-hosting.com/vespura) to get a Zap server and use code `Vespura-a-3715` at checkout for 20% off your purchase!

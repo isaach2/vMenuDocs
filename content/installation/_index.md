@@ -38,9 +38,12 @@ Congratulations, you've just installed vMenu in it's most basic, plug-and-play c
 * To learn more on how to **setup the permissions.cfg file**, take a look at the [Permissions Reference](/vmenu/permissions-ref/) page.
 
 
+## 1-click installation with Zap Hosting
+[![](https://zap-hosting.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png)](https://zap-hosting.com/vespura)
+Zap Hosting provides a simple 1 click installation method for vMenu! Click [this link](https://zap-hosting.com/vespura) to get a Zap server and use code `Vespura-a-3715` at checkout for 20% off your purchase!
+
 ## Support / Trouble Shooting
 vMenu is no longer supported. Check the archived support channels in my [Discord](https://vespura.com/discord) server (don't ask for help in my Discord because you'll get permanently muted for your inability to read, the support channel is archived for a reason), or check the forum topic. Most issues can be found there or here on the docs.
-
 
 ## F.A.Q.
 Checkout the [F.A.Q. page](/vmenu/faq/)..
