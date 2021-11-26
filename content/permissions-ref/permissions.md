@@ -48,12 +48,12 @@ weight: 41
 |---|---|---|
 |`vMenu.PlayerOptions.Menu`|Grants access to the Player Options Menu.|Allowed|
 |`vMenu.PlayerOptions.All`|Grants access to **ALL** `Player Options Menu` options.|Allowed|
-|`vMenu.PlayerOptions.God`|Allows you to use god mode.|Allowed|
-|`vMenu.PlayerOptions.Invisible`|Allows you to go invisble.|Allowed|
+|`vMenu.PlayerOptions.God`|Allows you to use god mode.|denied|
+|`vMenu.PlayerOptions.Invisible`|Allows you to go invisble.|denied|
 |`vMenu.PlayerOptions.UnlimitedStamina`|Allows you to go enable/disable unlimited stamina so you don't take damage after sprinting for 2 seconds.|Allowed|
-|`vMenu.PlayerOptions.FastRun`|Allows you to enable Fast Run.|Allowed|
-|`vMenu.PlayerOptions.FastSwim`|Allows you to enable Fast Swim.|Allowed|
-|`vMenu.PlayerOptions.Superjump`|Allows you to enable Superjump.|Allowed|
+|`vMenu.PlayerOptions.FastRun`|Allows you to enable Fast Run.|denied|
+|`vMenu.PlayerOptions.FastSwim`|Allows you to enable Fast Swim.|denied|
+|`vMenu.PlayerOptions.Superjump`|Allows you to enable Superjump.|denied|
 |`vMenu.PlayerOptions.NoRagdoll`|Allows you to enable No Ragdoll.|Allowed|
 |`vMenu.PlayerOptions.NeverWanted`|Allows you to enable Never Wanted.|Allowed|
 |`vMenu.PlayerOptions.SetWanted`|Allows you to set a custom wanted level.|Allowed|
@@ -75,10 +75,10 @@ weight: 41
 |---|---|---|
 |`vMenu.VehicleOptions.Menu`|Grants access to the Vehicle Options Menu.|Allowed|
 |`vMenu.VehicleOptions.All`|Grants access to **ALL** `Vehicle Options Menu` options.|Allowed|
-|`vMenu.VehicleOptions.God`|Allows you to enable vehicle godmode.|Allowed|
+|`vMenu.VehicleOptions.God`|Allows you to enable vehicle godmode.|denied|
 |`vMenu.VehicleOptions.BikeSeatbelt`|Allows you to enable bike seatbelt preventing you from falling off your motorcycle if you crash.|Allowed|
 |`vMenu.VehicleOptions.KeepClean`|Allows you to toggle the 'keep clean' function.|Allowed|
-|`vMenu.VehicleOptions.Repair`|Allows you to repair your vehicle.|Allowed|
+|`vMenu.VehicleOptions.Repair`|Allows you to repair your vehicle.|denied|
 |`vMenu.VehicleOptions.Wash`|Allows you to wash/clean your vehicle & set a custom dirt level.|Allowed|
 |`vMenu.VehicleOptions.Engine`|Allows you to toggle your engine on/off.|Allowed|
 |`vMenu.VehicleOptions.SpeedLimiter`|Allows you to limit your vehicle's speed.|Allowed|
@@ -90,8 +90,8 @@ weight: 41
 |`vMenu.VehicleOptions.Doors`|Allows you to open/close vehicle doors using the menu.|Allowed|
 |`vMenu.VehicleOptions.Windows`|Allows you to roll up/down your windows using the menu.|Allowed|
 |`vMenu.VehicleOptions.Freeze`|Allows you to freeze the position of your vehicle (why would you do this though...)|Allowed|
-|`vMenu.VehicleOptions.TorqueMultiplier`|Allows you to set and enable an engine torque multiplier.|Allowed|
-|`vMenu.VehicleOptions.PowerMultiplier`|Allows you to set and enable an engine power multiplier.|Allowed|
+|`vMenu.VehicleOptions.TorqueMultiplier`|Allows you to set and enable an engine torque multiplier.|denied|
+|`vMenu.VehicleOptions.PowerMultiplier`|Allows you to set and enable an engine power multiplier.|denied|
 |`vMenu.VehicleOptions.Invisible`|Allows you to toggle vehicle visibility.|Allowed|
 |`vMenu.VehicleOptions.InfiniteFuel`|Allows you to enable infinite vehicle fuel (requires FRFuel to be installed).|Allowed|
 |`vMenu.VehicleOptions.Flip`|Allows you to flip your vehicle if it's upside down.|Allowed|
